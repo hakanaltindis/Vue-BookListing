@@ -20,5 +20,3 @@ export default {
         font-weight: normal
     }
 </style>
-
-
