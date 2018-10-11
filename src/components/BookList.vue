@@ -10,8 +10,9 @@
 </template>
 
 <script>
-import BookItem from './BookItem'
-import BookForm from './BookForm'
+import BookItem from './BookItem';
+import BookForm from './BookForm';
+
 export default {
     name: 'BookList',
     components:{
@@ -28,7 +29,7 @@ export default {
             ]
         }
     },
-    methods:{
+    methods: {
         appendBook(bookTitle, bookAuthor){
             this.books.push({title: bookTitle, author: bookAuthor})
         }
